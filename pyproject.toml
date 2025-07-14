@@ -17,5 +17,5 @@ commit_args = ""
 
 [[tool.bumpversion.files]]
 filename = "src/__init__.py"
-search = '__version__' = "v{current_version}"
-replace = '__version__' = "v{new_version}"
+search = '__version__ = "v{current_version}"'
+replace = '__version__ = "v{new_version}"'
